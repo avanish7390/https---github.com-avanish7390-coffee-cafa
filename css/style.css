@@ -3,7 +3,7 @@
 :root {
     --main-color: #d3ad7f;
     --black: #13131a;
-    --bg: #010103;
+    --bg: #06c9f0;
     --border: .1rem solid rgba(255, 255, 255, .3);
 }
 
@@ -75,7 +75,7 @@ section {
 }
 
 .header {
-    background: var(--bg);
+    background: var(white);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -215,7 +215,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../images/home-img.jpeg) no-repeat;
+    background: url(../images/bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -488,9 +488,9 @@ section {
 }
 
 .blogs .box-container .box .content .title {
-    font-size: 2.5rem;
+    font-size: 5rem;
     line-height: 1.5;
-    color: #fff;
+    color: rgb(244, 10, 10);
 }
 
 .blogs .box-container .box .content .title:hover {
